@@ -23,3 +23,5 @@ npm install -g yapi-cli --registry https://registry.npm.taobao.org
 ```bash
 yapi server
 ```
+
+### --END--
