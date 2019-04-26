@@ -1,7 +1,18 @@
 module.exports = {
   base: '/blog/',
+
   title: '九林个人博客',
+
   description: '技术分享 | 学习成长',
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@images': 'images'
+      }
+    }
+  },
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -14,20 +25,20 @@ module.exports = {
       {
         title: '环境部署',
         children: [
-          '/sys/installnodejs',
-          '/sys/installmongodb',
-          '/sys/installredis',
-          '/sys/installyapi',
-          '/sys/pm2',
+          '/article/sys/installnodejs',
+          '/article/sys/installmongodb',
+          '/article/sys/installredis',
+          '/article/sys/installyapi',
+          '/article/sys/pm2',
         ]
       },
 
       {
         title: '前端技术笔记',
         children: [
-          '/fe/gis'
+          '/article/fe/gis'
         ]
       },
     ]
-  }
+  },
 }
