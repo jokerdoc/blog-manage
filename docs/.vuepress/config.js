@@ -27,10 +27,10 @@ module.exports = {
       {
         title: '环境部署',
         children: [
-          '/article/sys/installnodejs',
-          '/article/sys/installmongodb',
-          '/article/sys/installredis',
-          '/article/sys/installyapi',
+          '/article/sys/nodejs',
+          '/article/sys/mongodb',
+          '/article/sys/redis',
+          '/article/sys/yapi',
           '/article/sys/pm2',
         ]
       },

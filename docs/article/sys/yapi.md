@@ -1,10 +1,10 @@
 # 安装YApi
 
 ### 环境准备
-+ 操作系统：centos 7
++ 操作系统：CentOS 7
 + 环境:
-  + [安装nodejs](/content/installnodejs.html)
-  + [安装Mongodb](/content/installmongodb.html)
+  + [安装nodejs](/article/sys/nodejs)
+  + [安装Mongodb](/article/sys/mongodb)
 
 
 ### 安装git
