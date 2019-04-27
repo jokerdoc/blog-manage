@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   base: '/blog/',
 
@@ -8,7 +10,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@images': 'images'
+        '@': path.resolve(__dirname, '..')    // docs root path
       }
     }
   },
