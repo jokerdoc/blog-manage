@@ -10,7 +10,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '..')    // docs root path
+        '@': path.resolve(__dirname, '.')    // .vuepress root path
       }
     }
   },
