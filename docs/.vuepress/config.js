@@ -36,7 +36,7 @@ module.exports = {
       },
 
       {
-        title: '前端技术笔记',
+        title: '前端笔记',
         children: [
           '/article/fe/gis'
         ]
