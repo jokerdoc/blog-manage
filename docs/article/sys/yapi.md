@@ -3,7 +3,7 @@
 ### 环境准备
 + 操作系统：CentOS 7
 + 环境:
-  + [安装nodejs](/blog/article/sys/nodejs)
+  + [安装Node.js](/blog/article/sys/nodejs)
   + [安装Mongodb](/blog/article/sys/mongodb)
 
 

@@ -1,4 +1,4 @@
-# 安装nodejs
+# 安装Node.js
 
 ## CentOS环境
 获取资源

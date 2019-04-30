@@ -1,5 +1,8 @@
 # 安装pm2及使用
 
+### 简介
+> pm2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等。
+
 ### 安装pm2
 ```bash
 npm install -g pm2 --registry https://registry.npm.taobao.org
